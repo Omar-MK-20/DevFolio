@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap-icons-1.12.1/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>DevFolio</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-example">
+  <!-- #region navbar-->
+  <nav id="navbar-example" class="navbar navbar-expand-lg bg-black navbar-dark py-2 fixed-top">
+    <div class="container">
+      <a class="navbar-brand fs-2 fw-semibold" href="#">DevFolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold">
+          <li class="nav-item px-2">
+            <a class="nav-link active" aria-current="page" href="#home">HOME
+            </a>
+
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#about">ABOUT</a>
+
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#services">SERVICES</a>
+
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#work">WORK</a>
+
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#">BLOG</a>
+
+          </li>
+          <li class="nav-item dropdown px-1">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              DROP DOWN
+            </a>
+
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item px-1">
+            <a class="nav-link" href="#">CONTACT</a>
+
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- #endregion -->
+
+  <!-- #region home-->
+  <header id="home" class="bg-image hero" style="background-image: url(images/hero-bg.jpg);">
+    <div style="background-color: rgba(0, 0, 0, 0.5);">
+      <div class="container d-flex justify-content-center align-items-center flex-column text-center vh-100 text-white">
+        <h1 class="display-1 fw-semibold mb-4">
+          I am Morgan Freeman
+        </h1>
+        <div class="d-flex justify-content-center align-items-center">
+          <span id="auto-type" class="fs-1 fw-medium"></span>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- #endregion home-->
+
+  <!-- #region about-->
+  <main id="about" class="w-100">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 gx-5">
+          <div class="row bg-white shadow p-md-5 p-sm-2">
+            <div class="col-md-6 mb-md-0 mb-5 pt-5 pt-md-3">
+              <div class="row about-contact">
+                <div class="col-sm-6 col-md-5 mb-4">
+                  <img class="rounded mw-100 h-auto" src="images/testimonial-2.jpg" alt="testimonial">
+                </div>
+                <div class="col-sm-6 col-md-7">
+                  <p><span class="fw-semibold fs-5">Name: </span><span>Morgan Freeman</span></p>
+                  <p><span class="fw-semibold fs-5">Profile: </span><span>full stack developer</span></p>
+                  <p><span class="fw-semibold fs-5">Email: </span><span>contact@example.com</span></p>
+                  <p><span class="fw-semibold fs-5">Phone: </span><span>(617) 557-0089</span></p>
+                </div>
+              </div>
+              <div class="skills">
+                <h5 class="mb-3">Skill</h5>
+                <span class="gray-color">HTML 85%</span>
+                <div class="progress mt-1 mb-3 bg-primary-subtle" role="progressbar" aria-label="Basic example"
+                  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="height: 11px;">
+                  <div class="progress-bar" style="width: 85%;"></div>
+                </div>
+                <span class="gray-color">CSS3 75%</span>
+                <div class="progress mt-1 mb-3 bg-primary-subtle" role="progressbar" aria-label="Basic example"
+                  aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 11px;">
+                  <div class="progress-bar w-75"></div>
+                </div>
+                <span class="gray-color">PHP 50%</span>
+                <div class="progress mt-1 mb-3 bg-primary-subtle" role="progressbar" aria-label="Basic example"
+                  aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 11px;">
+                  <div class="progress-bar w-50"></div>
+                </div>
+                <span class="gray-color">JAVASCRIPT 90%</span>
+                <div class="progress mt-1 mb-3 bg-primary-subtle" role="progressbar" aria-label="Basic example"
+                  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="height: 11px;">
+                  <div class="progress-bar" style="width: 90%;"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 pt-sm-0 pt-md-3">
+              <div class="mb-4">
+                <h2>About me</h2>
+                <span class="d-block w-25 border-bottom bg-primary" style="height: 4px;"></span>
+              </div>
+              <p class="fs-5 fw-lighter">Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur
+                arcu erat, accumsan id imperdiet et, porttitor at sem. Praesent sapien massa, convallis a pellentesque
+                nec, egestas non nisi. Nulla porttitor accumsan tincidunt.</p>
+              <p class="fs-5 fw-lighter">Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit
+                tortor eget felis porttitor volutpat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+                dui. porttitor at sem.</p>
+              <p class="fs-5 fw-lighter">Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in,
+                elementum id enim. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh
+                pulvinar a.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- #region services-->
+  <section id="services" class="pt-5 w-100" style="background-color: rgb(245, 245, 245);">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="text-center mb-5">
+            <h3 class="h1 fw-bolder">SERVICES</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, pariatur!</p>
+            <span class="d-block mx-auto border-bottom bg-primary" style="height: 6px; width: 5%;"></span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service-card bg-white py-5 px-sm-4 rounded-4 mb-5 text-center shadow-sm">
+            <div class="mb-4 text-dark">
+              <span class="d-inline-flex justify-content-center align-items-center circle-style">
+                <i class="bi bi-briefcase" style="font-size: 40px;"></i>
+              </span>
+            </div>
+            <div>
+              <h4 class="py-2">WEB DESIGN</h4>
+              <P class="gray-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur asperiores,
+                aperiam facere nihil modi totam sapiente neque quasi voluptatum obcaecati.</P>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-card bg-white py-5 px-sm-4 rounded-4 mb-5 text-center shadow-sm">
+            <div class="mb-4 text-dark">
+              <span class="d-inline-flex justify-content-center align-items-center circle-style">
+                <i class="bi bi-card-checklist" style="font-size: 40px;"></i>
+              </span>
+            </div>
+            <div>
+              <h4 class="py-2">WEB DEVELOPMENT</h4>
+              <P class="gray-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur asperiores,
+                aperiam facere nihil modi totam sapiente neque quasi voluptatum obcaecati.</P>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-card bg-white py-5 px-sm-4 rounded-4 mb-5 text-center shadow-sm">
+            <div class="mb-4 text-dark">
+              <span class="d-inline-flex justify-content-center align-items-center circle-style">
+                <i class="bi bi-bar-chart" style="font-size: 40px;"></i>
+              </span>
+            </div>
+            <div>
+              <h4 class="py-2">PHOTOGRAPHY</h4>
+              <P class="gray-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur asperiores,
+                aperiam facere nihil modi totam sapiente neque quasi voluptatum obcaecati.</P>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-card bg-white py-5 px-sm-4 rounded-4 mb-5 text-center shadow-sm">
+            <div class="mb-4 text-dark">
+              <span class="d-inline-flex justify-content-center align-items-center circle-style">
+                <i class="bi bi-binoculars" style="font-size: 40px;"></i>
+              </span>
+            </div>
+            <div>
+              <h4 class="py-2">RESPONSIVE DESIGN</h4>
+              <P class="gray-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur asperiores,
+                aperiam facere nihil modi totam sapiente neque quasi voluptatum obcaecati.</P>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-card bg-white py-5 px-sm-4 rounded-4 mb-5 text-center shadow-sm">
+            <div class="mb-4 text-dark">
+              <span class="d-inline-flex justify-content-center align-items-center circle-style">
+                <i class="bi bi-brightness-high" style="font-size: 40px;"></i>
+              </span>
+            </div>
+            <div>
+              <h4 class="py-2">GRAPHIC DESIGN</h4>
+              <P class="gray-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur asperiores,
+                aperiam facere nihil modi totam sapiente neque quasi voluptatum obcaecati.</P>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-card bg-white py-5 px-sm-4 rounded-4 mb-5 text-center shadow-sm">
+            <div class="mb-4 text-dark">
+              <span class="d-inline-flex justify-content-center align-items-center circle-style">
+                <i class="bi bi-calendar4-week" style="font-size: 40px;"></i>
+              </span>
+            </div>
+            <div>
+              <h4 class="py-2">MARKETING SERVICES</h4>
+              <P class="gray-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur asperiores,
+                aperiam facere nihil modi totam sapiente neque quasi voluptatum obcaecati.</P>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- #endregion services-->
+
+  <!-- #region statics-->
+  <section class="bg-image" style="background-image: url(images/counters-bg.jpg);">
+    <div style="background-color: rgba(0, 120, 255 , 0.7); height: 100%;">
+      <div class="container text-center text-white h-100">
+        <div class="row justify-content-center h-100 py-5">
+          <div class="col-sm-3 col-lg-3">
+            <div class="inner pt-4 pt-md-0 mb-sm-4">
+              <div class="mb-3">
+                <span class="small-circle-style">
+                  <i class="bi bi-check"></i>
+                </span>
+              </div>
+            </div>
+            <div>
+              <p class="h2 fw-normal">450</p>
+              <p>WORKS COMPLETED</p>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <div class="inner pt-4 pt-md-0 mb-sm-4">
+              <div class="mb-3">
+                <span class="small-circle-style">
+                  <i class="bi bi-journal-richtext"></i>
+                </span>
+              </div>
+            </div>
+            <div>
+              <p class="h2 fw-normal">25</p>
+              <p>YEARS OF EXPERIENCE</p>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <div class="inner pt-4 pt-md-0 mb-sm-4">
+              <div class="mb-3">
+                <span class="small-circle-style">
+                  <i class="bi bi-people"></i>
+                </span>
+              </div>
+            </div>
+            <div>
+              <p class="h2 fw-normal">550</p>
+              <p>TOTAL CLIENTS</p>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <div class="inner pt-4 pt-md-0 mb-sm-4">
+              <div class="mb-3">
+                <span class="small-circle-style">
+                  <i class="bi bi-award"></i>
+                </span>
+              </div>
+            </div>
+            <div>
+              <p class="h2 fw-normal">48</p>
+              <p>AWARD WON</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- #endregion statics-->
+
+  <!-- #region work-->
+  <section id="work" class="pt-5" style="background-color: rgb(245, 245, 245);">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="text-center mb-5">
+            <h3 class="h1 fw-bolder">PORTFOLIO</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, pariatur!</p>
+            <span class="d-block mx-auto border-bottom bg-primary" style="height: 6px; width: 5%;"></span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card shadow-sm mb-5">
+            <a style="overflow: hidden;" href="#"><img class="card-image w-100" src="images/work-1.jpg" alt=""></a>
+            <div class="card-body pt-4">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h4 class="card-title fs-5">Lorem, ipsum dolor.</h4>
+                  <p class="card-text" style="font-size: small;"><span class="text-primary">Web Design</span> / 18 Sep.
+                    2018</p>
+                </div>
+                <div class="col-sm-4">
+                  <div class="float-end fs-1">
+                    <a href="#"><span class="bi bi-plus-circle"></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm mb-5">
+            <a style="overflow: hidden;" href="#"><img class="card-image w-100" src="images/work-2.jpg" alt=""></a>
+            <div class="card-body pt-4">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h4 class="card-title fs-5">Lorem, ipsum dolor.</h4>
+                  <p class="card-text" style="font-size: small;"><span class="text-primary">Web Design</span> / 18 Sep.
+                    2018</p>
+                </div>
+                <div class="col-sm-4">
+                  <div class="float-end fs-1">
+                    <a href="#"><span class="bi bi-plus-circle"></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm mb-5">
+            <a style="overflow: hidden;" href="#"><img class="card-image w-100" src="images/work-3.jpg" alt=""></a>
+            <div class="card-body pt-4">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h4 class="card-title fs-5">Lorem, ipsum dolor.</h4>
+                  <p class="card-text" style="font-size: small;"><span class="text-primary">Web Design</span> / 18 Sep.
+                    2018</p>
+                </div>
+                <div class="col-sm-4">
+                  <div class="float-end fs-1">
+                    <a href="#"><span class="bi bi-plus-circle"></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm mb-5">
+            <a style="overflow: hidden;" href="#"><img class="card-image w-100" src="images/work-4.jpg" alt=""></a>
+            <div class="card-body pt-4">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h4 class="card-title fs-5">Lorem, ipsum dolor.</h4>
+                  <p class="card-text" style="font-size: small;"><span class="text-primary">Web Design</span> / 18 Sep.
+                    2018</p>
+                </div>
+                <div class="col-sm-4">
+                  <div class="float-end fs-1">
+                    <a href="#"><span class="bi bi-plus-circle"></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm mb-5">
+            <a style="overflow: hidden;" href="#"><img class="card-image w-100" src="images/work-5.jpg" alt=""></a>
+            <div class="card-body pt-4">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h4 class="card-title fs-5">Lorem, ipsum dolor.</h4>
+                  <p class="card-text" style="font-size: small;"><span class="text-primary">Web Design</span> / 18 Sep.
+                    2018</p>
+                </div>
+                <div class="col-sm-4">
+                  <div class="float-end fs-1">
+                    <a href="#"><span class="bi bi-plus-circle"></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm mb-5">
+            <a style="overflow: hidden;" href="#"><img class="card-image w-100" src="images/work-6.jpg" alt=""></a>
+            <div class="card-body pt-4">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h4 class="card-title fs-5">Lorem, ipsum dolor.</h4>
+                  <p class="card-text" style="font-size: small;"><span class="text-primary">Web Design</span> / 18 Sep.
+                    2018</p>
+                </div>
+                <div class="col-sm-4">
+                  <div class="float-end fs-1">
+                    <a href="#"><span class="bi bi-plus-circle"></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- #region testimonials -->
+  <section class="testimonials bg-image" style="background-image: url(images/overlay-bg.jpg); height: 500px;">
+    <div class="container-fluid h-100 pt-5" style="background-color: rgba(0, 120, 255 , 0.7);">
+      <div class="row">
+        <div id="carouselExampleIndicators" class="carousel slide p-0" data-bs-ride="carousel" data-bs-touch="true">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+              <div class="container text-center text-white w-75">
+                <div class="row">
+                  <div class="col-12">
+                    <img class="rounded-circle" src="images/testimonial-2.jpg" alt="">
+                    <h3 class="my-3">Xavi Alonso</h3>
+                    <p class="fs-5 fw-lighter">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut voluptatem
+                      accusantium doloribus odio eligendi aspernatur hic tempora laborum placeat iste?</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <div class="container text-center text-white w-75">
+                <div class="row">
+                  <div class="col-12">
+                    <img class="rounded-circle" src="images/testimonial-4.jpeg" alt="">
+                    <h3 class="my-3">Marta Socrate</h3>
+                    <p class="fs-5 fw-lighter">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut voluptatem
+                      accusantium doloribus odio eligendi aspernatur hic tempora laborum placeat iste?</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-indicators position-static">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- #endregion testimonials-->
+
+  <!-- #region blog-->
+  <section>
+
+  </section>
+  <!-- #endregion blog-->
+
+
+
+
+
+
+  <!-- #region javascript import-->
+  <script src="typed.js-main/dist/typed.umd.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- #endregion -->
+
+
+  <!-- #region javascript code-->
+  <script>
+    var typed = new Typed('#auto-type', {
+      strings: ["Designer", "Freelancer", "Developer", "Photographer"],
+      typeSpeed: 150,
+      backSpeed: 50,
+      backDelay: 1000,
+      loop: true,
+      fadeOut: false,
+      fadeOutClass: 'typed-fade-out',
+      fadeOutDelay: 500
+    })
+  </script>
+  <!-- #endregion -->
+
+  <!-- #region main javascript-->
+  <script src="js/main.js"></script>
+  <!-- #endregion main javascript-->
+</body>
+
+</html>
